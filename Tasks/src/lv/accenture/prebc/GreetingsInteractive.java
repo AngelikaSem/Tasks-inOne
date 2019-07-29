@@ -12,6 +12,7 @@ public class GreetingsInteractive {
 		System.out.print("Enter your name, darling: ");
 		Name = sc.next();
 		System.out.print("Enter you age: ");
+		
 		age = sc.nextInt();
 		sc.close();
 		
