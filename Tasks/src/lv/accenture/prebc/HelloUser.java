@@ -8,12 +8,16 @@ public class HelloUser {
 		System.out.println("What is your full name?");
 		
 		Scanner scanner = new Scanner(System.in);
-		String fullname = scanner.nextLine();
+		String name = scanner.nextLine();
 		scanner.close();
+		String [] fullname =  name.split(" ");
+		String firstname = fullname [0];
+		String lastname = fullname [1];
 		
 		
+		System.out.println(" ' " + firstname.substring(0,1).toUpperCase()+firstname.substring(1).toLowerCase() +" " + lastname.toUpperCase() + " ' ");
 		
-		System.out.println("'"+fullname.substring(0, 8)+" " + fullname.substring(9, 20).toUpperCase()+ "'");
+		
 	
 				
 		

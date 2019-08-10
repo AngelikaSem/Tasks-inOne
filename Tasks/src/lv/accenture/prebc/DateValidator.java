@@ -21,8 +21,22 @@ public class DateValidator {
 		scanner.close();
 		
 		
-		Month month = Month.of(b); 
+		if ((b == 4) && (date> 30)) {
+			System.out.println("Not really possible, try again!");
+		}else if ((b == 6) && (date> 30)) {
+			System.out.println("Not really possible, try again!");
+		}else if ((b == 9) && (date> 30)) {
+			System.out.println("Not really possible, try again!");	
+		}else if ((b == 11) && (date> 30)) {
+			System.out.println("Not really possible, try again!");
+		}else if ((b == 2) && (date> 28)) {
+			System.out.println("Not really possible, try again!");
+		}	else{
+			System.out.println("This could work!");
+		}	
 		
+		
+		Month month = Month.of(b);  
 		
 		System.out.println("'" + date + ". " + month + "," + year + " ' " );
 

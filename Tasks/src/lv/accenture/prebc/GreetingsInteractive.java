@@ -9,7 +9,7 @@ public class GreetingsInteractive {
 		String Name;
 		int age;
 		
-		System.out.print("Enter your name, darling: ");
+		System.out.print("Enter your first name, darling: ");
 		Name = sc.next();
 		System.out.print("Enter you age: ");
 		
