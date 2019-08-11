@@ -21,5 +21,4 @@ public class ConditionalMath {
 			System.out.println(a + " and " + b + " are equal");
 		}
 	}
-
 }

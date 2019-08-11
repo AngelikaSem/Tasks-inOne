@@ -5,20 +5,17 @@ import java.util.Scanner;
 public class GreetingsInteractive {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String Name;
+		String name;
 		int age;
-		
-		System.out.print("Enter your first name, darling: ");
-		Name = sc.next();
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter your name: ");
+		name = sc.nextLine();
 		System.out.print("Enter you age: ");
-		
 		age = sc.nextInt();
 		sc.close();
-		
-		System.out.println("Hello! My name is " + Name + " and I am " + age + " years old. ");
-		
 
+		System.out.println("Hello! My name is " + name + " and I am " + age + " years old. ");
 	}
-
 }
