@@ -1,6 +1,5 @@
-package lv.accenture.prebc;
+package tasks.prebc;
 
-public class AllTasksInOne {
 	import java.util.Scanner;
 
 	public class BasicMath {
@@ -28,7 +27,7 @@ public class AllTasksInOne {
 		}
 	}
 
-	package lv.accenture.prebc;
+	package tasks.prebc;
 
 	import java.util.Scanner;
 
@@ -53,7 +52,7 @@ public class AllTasksInOne {
 		}
 	}
 
-	package lv.accenture.prebc;
+	package tasks.prebc;
 
 	import java.time.Month;
 	import java.util.Scanner;
@@ -95,7 +94,7 @@ public class AllTasksInOne {
 		}
 	}
 
-	package lv.accenture.prebc;
+	package tasks.prebc;
 
 	public class Greetings {
 
@@ -106,7 +105,7 @@ public class AllTasksInOne {
 			System.out.println("Hello! My name is " + myname + " and I am " + age + " years old.");
 		}
 	}
-	package lv.accenture.prebc;
+	package tasks.prebc;
 
 	import java.util.Scanner;
 
@@ -128,7 +127,7 @@ public class AllTasksInOne {
 		}
 	}
 
-	package lv.accenture.prebc;
+	package tasks.prebc;
 
 	import java.util.Random;
 	import java.util.Scanner;
@@ -163,7 +162,7 @@ public class AllTasksInOne {
 		}
 	}
 
-	package lv.accenture.prebc;
+	package tasks.prebc;
 
 	import java.util.Scanner;
 
@@ -183,7 +182,7 @@ public class AllTasksInOne {
 					+ lastname.toUpperCase() + " ' ");
 		}
 	}
-	package lv.accenture.prebc;
+	package tasks.prebc;
 
 	import java.util.Random;
 	import java.util.Scanner;
